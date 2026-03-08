@@ -1,0 +1,127 @@
+
+
+body{
+  background: linear-gradient(50deg, #4c535b );
+}
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top:100px ;
+    max-width: 600px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  color: rgb(83, 21, 21);
+  font-size: 4rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 9px 18px;
+  color: rgb(108, 29, 29);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+ 
+
+}
+
+.add-button{
+  background-color:rgb(3, 144, 183) ;
+}
+.add-button:hover{
+  background-color:rgb(162, 211, 224) ;
+}
+.delete-button{
+   background-color:rgb(3, 144, 183);
+   
+}
+.delete-button:hover{
+  background-color:rgb(171, 214, 226) ;
+}
+.move-button{
+ background-color: hsl(10, 72%, 22%);
+}
+.move-button:hover{
+  background-color: hsl(10, 72%, 60%);
+}
+
+.check-btn {
+  width: 0%;
+  height: 30px;
+  border-radius: 100%;
+  border: 2px solid rgb(61, 4, 4);
+  background-color:  rgb(61, 4, 4);
+ 
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-btn.checked {
+  background-color: rgb(61, 4, 4);
+  color: white;
+}
+
+.completed {
+
+    text-decoration-line: line-through;
+  text-decoration-thickness: 1px;  
+  text-decoration-color: #e0dede; 
+}
+
+input[type="text"]{
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 2px solid rgb(83, 24, 24);
+  border-radius: 7px;
+  color:black ;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+input::placeholder{
+color: rgb(140, 35, 35);
+}
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 1.8rem;
+   padding: 6px;
+   margin-bottom: 15px;
+   
+  font-weight: 300;
+  font-style:unset;
+
+
+    background: linear-gradient(
+    120deg,
+     rgba(255,255,255,0.05),
+    rgba(255,255,255,0.05)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+   
+}
+.text{
+  flex: 1;
+  display: inline-block;
+}
+.delete-button, .move-button{
+  padding: 4px 4px;
+  font: size 1.0rem; 
+  margin-left:10px ;
+}
+ 
+
